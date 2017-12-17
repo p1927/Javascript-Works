@@ -1,0 +1,75 @@
+
+  <html lang="en">
+
+<head>
+  <title>A Contact Manager</title>
+  <meta charset="utf-8" />
+ 
+<link rel='stylesheet' type='text/css' href='c.css'> 
+<script src="jas.js"></script>
+</head>
+
+<body>
+ <div>
+    <p>Click to add rows</p>
+    <button onclick="insertRow();">Add a new row</button>
+ <button onclick="insertManyRows();">Add many rows</button>
+
+   
+
+    <p>Click to delete the first row of the table</p>
+    <button onclick="deleteFirstRow();">Delete first row</button>
+    <p></p>
+    <label for='search'>Search here:</label>
+    <input id='search' type='text' oninput="compareValues(this)" placeholder="First Last">
+    <input id='notFound' type='text' readonly>
+    <p></p>
+    <hr>
+    <p></p>
+  </div>
+
+  <div id='tableDiv' class="overflow-scroll">
+    <table id="myTable">
+      <caption>A typical HTML table</caption>
+      <thead>
+        <tr>
+          <th scope="col">Given Name</th>
+          <th scope="col">Family Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">City</th>
+          <th scope="col">Zip Code</th>
+          <th scope="col">Country</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Pratyush</td>
+          <td>Mishra</td>
+          <td>23</td>
+          <td>Hyderabad</td>
+          <td>00000</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>Superman</td>
+          <td>Valdmir</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+        </tr>
+        <tr>
+          <td>Warm</td>
+          <td>Sky</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+          <td>Unknown</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
