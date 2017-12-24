@@ -205,10 +205,10 @@ $('.modal-footer .btn-primary').click(function() {
             fullName = fullName.slice(0, inputLength);//b
             fullName = fullName.toLowerCase();
 
-            //myTable.rows[i].style.backgroundColor = '#ffffff';//c
+            myTable.rows[i].style.backgroundColor = '#ffffff';//c
 
             if ((input === fullName) && (inputLength !== 0)) {//d
-                myTable.rows[i].style.backgroundColor = '#7a7a7a';//e
+                myTable.rows[i].style.backgroundColor = '#b0d1f2';//e
                 countMatch++;
             }
         }
