@@ -6,3 +6,5 @@ It used Oracle SQL for storing information. The app has fakedata method which is
 The Java design is Layered architecture.
 Technologies used : HTML, CSS, Javascript, Java, JSP, Oracle SQL, jQuery, Ajax, GIT. IDE: Eclipse Luna.
 
+https://github.com/p1927/Javascript-Works
+
