@@ -8,7 +8,8 @@ Technologies used : HTML, CSS, Javascript, Java, JSP, Oracle SQL, jQuery, Ajax, 
 
 https://github.com/p1927/Javascript-Works
 
-#Resume Registry Service
+Resume Registry Service
+----------------------------
 •	Simple resume database to support Create, Read, Update, and Delete operations (CRUD). 
 •	Salt + MD5 hash used for password storage in database. 
 •	Server side data validation done on PHP and client side data validation on Javascript.
